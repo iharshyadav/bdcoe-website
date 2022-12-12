@@ -1,0 +1,46 @@
+.ComingSoon {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ebebeb;
+    background-color: #000a18;
+    font-family: monospace;
+}
+
+.ComingSoon > img {
+    height: 3rem;
+}
+
+.bdcoe {
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.soon {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.social {
+    display: flex;
+    font-size: 1.5rem;
+    margin-top: 8rem;
+}
+
+.social > a {
+    margin: 0 1rem;
+    color: #ebebeb;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 550px)  {
+    .bdcoe {
+        font-size: 1.2rem;
+    }
+    .soon {
+        font-size: 1rem;
+    }
+}
