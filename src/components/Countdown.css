@@ -1,0 +1,34 @@
+.Countdown {
+    display: flex;
+    margin: 2rem 0;
+    user-select: none;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin: 0 0.5rem;
+    min-width: 5.5rem;
+    min-height: 5.5rem;
+    border-radius: 15px;
+    border: 2px solid white;
+    font-family: monospace;
+}
+
+.box > .unit {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width: 550px) {
+    .box {
+        font-size: 1.5rem;
+        min-height: 4rem;
+        min-width: 4rem;
+        margin: 0 0.3rem;
+        border-radius: 10px;
+    }
+}
