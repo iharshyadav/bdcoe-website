@@ -6,6 +6,7 @@ import Grid from '@mui/material/Grid';
 import {Domain} from "../../data/dmn";
 import './domain.css'
 
+
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: '#051522',
   ...theme.typography.body2,
@@ -16,8 +17,9 @@ const Item = styled(Paper)(({ theme }) => ({
   margin: '10px',
   borderRadius: '10px',
   fontFamily: 'Montserrat',
-  height: '60vh',
-  minHeight: 'fit-content',
+  marginTop: '0',
+  height: '400px',
+  maxWidth: '100%',
 }));
 
 

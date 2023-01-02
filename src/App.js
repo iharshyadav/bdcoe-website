@@ -1,6 +1,5 @@
 // import ComingSoon from './pages/ComingSoon';
 import Home from './pages/home'
-
 import './App.css';
 
 const App = () => {
