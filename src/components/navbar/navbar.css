@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar */
+header{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    background-color: #D6E4E5;
+    z-index: 1000;
+}
+header a{
+    text-decoration: none;
+    color: #030332;
+}
+header button{
+    background-color: #D6E4E5;
+    color: #030332;
+    border: none;
+    font-size: 1.5rem;
+}
+.regbtn{
+    background-color: #030332;
+    color: #D6E4E5;
+}
+.nav-btn{
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width: 1024px){
+.nav-btn{
+    display: unset;
+    
+}
+.nav-open-btn{
+    padding-right: 40px;
+}
+header nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    transition: 0.7s;
+    transform: translate(-200vh);
+    background-color: #D6E4E5;
+}
+.responsive_nav{
+    transform: none;
+}
+.nav-close-btn{
+    position: absolute;
+    top: 1.2rem;
+    right: 1.2rem;
+}
+}
