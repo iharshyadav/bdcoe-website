@@ -1,12 +1,13 @@
-import ComingSoon from './pages/ComingSoon';
+// import ComingSoon from './pages/ComingSoon';
+import Home from './pages/home'
 
 import './App.css';
 
 const App = () => {
 	return (
-		<div className='App'>
-			<ComingSoon />
-		</div>
+		<>
+			<Home/>
+		</>
 	);
 }
 
