@@ -80,7 +80,7 @@ header nav{
     text-align: center;
     gap: 1.5rem;
     transition: 0.7s;
-    transform: translate(-200vh);
+    transform: translate(-200vw);
     background-color: #D6E4E5;
 }
 .links{

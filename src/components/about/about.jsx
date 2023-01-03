@@ -22,12 +22,6 @@ const About = () => {
         <div className='about__img'>
         <img src={about} className='about__img' alt="img"/>
         </div>
-        {/* <div className='about__container container grid'>
-
-            <div className='about__data'>
-                 <p className='about__description' >  Motivated and highly productive Backend Developer professional with a research background. Detail-oriented with strong skills in multi-tasking and efficient management of day-to-day office operations.  </p>
-            </div>
-        </div> */}
         </div>
     </section>
   )

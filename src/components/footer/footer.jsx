@@ -14,9 +14,9 @@ const Footer = () => {
         </div>
         <div className="right">
             <div className="map">
-                <div class="mapouter">
-                    <div class="gmap_canvas">
-                        <iframe width="615" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Big%20Data%20Center%20of%20Excellence&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="map"></iframe>
+                <div className="mapouter">
+                    <div className="gmap_canvas">
+                        <iframe width="615" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=Big%20Data%20Center%20of%20Excellence&t=k&z=15&ie=UTF8&iwloc=&output=embed" title="map"></iframe>
                     </div>
                 </div>
             </div>

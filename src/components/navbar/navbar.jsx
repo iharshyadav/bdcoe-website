@@ -25,7 +25,7 @@ function Navbar() {
         </span>
 
         
-        <button class="regbtn">Register</button>
+        <button className="regbtn">Register</button>
         
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
         <FaTimes />
