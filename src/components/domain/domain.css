@@ -52,11 +52,12 @@
   .flip-card-back p {
     color: #fff;
     text-align: justify;
-    font-size: 0.99rem;
+    font-size: 0.9rem;
   }
   
   @media screen and (max-width: 480px) {
     .flip-card-container {
+
       perspective: 1000px;
     }
     .flip-card-back{

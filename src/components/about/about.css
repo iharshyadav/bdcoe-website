@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600&display=swap'); 
 
 .about__container {
     align-items: center;
-    font-size: 1.5rem;
+    text-align: justify;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -13,19 +12,19 @@
 }
 
 .about__description1{
+    
+    font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     padding: 1.5rem 0;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    
     
 }
 
 .about__description2{
     color: #FFFFFF;
-    font-size: 0.9rem;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+     font-family: 'Roboto', sans-serif;
 }
 
 #About{
@@ -44,10 +43,10 @@
 
 .about__title {
     color: #FFFFFF;
-    font-size: 2rem;
+    font-size: 3rem;
+    line-height: 6rem;
     font-weight:bolder;
-    font-family: 'Inter', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -80,17 +79,17 @@
         width: 90%;
     }
     .about__description1{
-        font-size: 1rem;
+        font-size: 1.3rem;
         text-align: center;
     }
     .about__description2{
+        text-align: justify;
         font-size: 1rem;
-        text-align: center;
-        padding-bottom: 2px;
+        padding: 5px;
     }
     .about__title{
         text-align: center;
-        font-size: 2rem;
-        padding-bottom: 10px;
+        font-size: 2.5rem;
+        line-height: 8rem;
     }
 }
