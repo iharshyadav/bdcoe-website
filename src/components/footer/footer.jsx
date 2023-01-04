@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         <div className="right">
             <div className="map">
-            <div className="mapouter"><div className="gmap_canvas"><iframe width="615" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=Big%20Data%20Center%20of%20Excellence&t=k&z=15&ie=UTF8&iwloc=&output=embed" title='map'></iframe></div></div>
+            <div className="mapouter gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Big%20Data%20Center%20of%20Excellence&t=k&z=15&ie=UTF8&iwloc=&output=embed" title='map'></iframe></div>
             </div>
             <div className="menu">
                 <ul>
@@ -28,17 +28,17 @@ const Footer = () => {
                     <a href="#About"><li>About</li></a>
                 </ul>
             </div>
-            <div className="social">
+        </div>
+        
+    </div>
+    <div className="copyright">
+           <div className="social">  
                 <ul>
                     <li><a href="https://www.instagram.com/bdcoe/" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a></li>
                     <li><a href="https://www.linkedin.com/school/big-data-centre-of-excellence/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a></li>
                     <li><a href="https://www.youtube.com/@bigdatacentreofexcellence3334" target="_blank" rel="noreferrer"><i className="fa-brands fa-youtube"></i></a></li>
                 </ul>
             </div>
-        </div>
-        
-    </div>
-    <div className="copyright">
         ©️BDCOE 2022
     </div>
     </> 

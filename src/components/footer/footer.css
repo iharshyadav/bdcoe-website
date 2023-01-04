@@ -40,7 +40,7 @@
 .social>ul{
     display:flex;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .mapouter{
@@ -55,8 +55,13 @@
     border-radius: 35px;
    
 }
+.gmap_canvas>iframe{
+    width: 50vw;
+    height: 50vh;
+}
 
 .fa-brands{
+    margin: 20px;
     font-size: 2em;
     color: #000000
 }
@@ -67,10 +72,24 @@
 
 @media (max-width: 650px){
     .footer{
+        overflow: hidden;
         flex-direction: column;
     }
+    .gmap_canvas>iframe{
+        width: 90vw;
+        height: 30vh;
+    }
+    .gmap_canvas{
+        padding: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
     .menu{
-        margin-left: 80px;
+        margin-left: 25vw;
     }
     .content{
         margin: 40px 60px;
