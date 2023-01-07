@@ -9,7 +9,7 @@ const ContactUs = () => {
     <div>
       <div className="contact">
         <div className="con-heading">
-          <h1>CONTACT US</h1>
+          <h1>Contact Us</h1>
         </div>
         <div className="con-body">
           <div className="con-left">
@@ -44,7 +44,7 @@ const ContactUs = () => {
                   
                   
                   <ReCAPTCHA
-                        sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
+                        sitekey="6Ld0ftEjAAAAAOodkf282VwH7MMXFat3qRstfXQx"
                         onChange={() => {
                           setVerified(!verified);
                         }}
