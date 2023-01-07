@@ -34,12 +34,14 @@ const Footer = () => {
     <div className="copyright">
            <div className="social">  
                 <ul>
-                    <li><a href="https://www.instagram.com/bdcoe/" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="https://www.linkedin.com/school/big-data-centre-of-excellence/" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a></li>
-                    <li><a href="https://www.youtube.com/@bigdatacentreofexcellence3334" target="_blank" rel="noreferrer"><i className="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="mailto:bdcoe@akgec.ac.in" target="_blank" rel="noreferrer"><i class="fa-brands fa-google"></i></a></li>
+                    <li><a href="https://www.linkedin.com/school/big-data-centre-of-excellence/" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.youtube.com/@bigdatacentreofexcellence3334" target="_blank" rel="noreferrer"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://www.instagram.com/bdcoe/" target="_blank" rel="noreferrer"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li><a href="https://github.com/Big-Data-Center-of-Excellence" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a></li>
                 </ul>
             </div>
-        ©️BDCOE 2022
+        Copyright ©️ {new Date().getFullYear()} - Big Data Centre of Excellence
     </div>
     </> 
   )
