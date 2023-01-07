@@ -1,12 +1,17 @@
-import ComingSoon from './pages/ComingSoon';
-
+// import ComingSoon from './pages/ComingSoon';
+import Home from './pages/home'
 import './App.css';
+import {Routes ,Route} from 'react-router-dom'
 
 const App = () => {
 	return (
-		<div className='App'>
-			<ComingSoon />
-		</div>
+		<>
+		<Routes>
+		<Route path='/' element={<Home/>}/>		
+		<Route path='/team' element={<Home/>} />
+		<Route path='/event' element={<Home/>} />		
+		</Routes>
+		</>
 	);
 }
 

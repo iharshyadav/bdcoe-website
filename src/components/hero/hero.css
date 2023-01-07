@@ -1,0 +1,48 @@
+.home{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+.t3>h3{
+    color: #000;
+}
+.box1 {
+    position: absolute;
+    overflow: hidden;
+    width: 715px; 
+    height: 300px;  
+    border: solid 1px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+    transform: rotate(90deg);
+}
+.t1{
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 796px) {
+    .t1{
+        line-height: 5rem;
+    }
+}
+@media screen and (max-width: 796px) {
+    .t1{
+        font-size: 1.3rem;
+    }
+    .t2{
+        font-size: 0.5rem;
+    }
+}
+
+.t2{
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+.t3{
+    font-size: 1.1rem;
+    position: relative;
+    bottom: -180px;
+}
