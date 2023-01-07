@@ -8,7 +8,7 @@ const About = () => {
     <section className='about section' id='About'>
         <div className='about__container'>
             <div className='about__content'>
-        <h2 className='about__title'>About Us</h2>
+        <h1 className='about__title'>About Us</h1>
 
         <div className='about__description1'>
         "Big Data Centre of Excellence" is the Research and Development centre of AKGEC.

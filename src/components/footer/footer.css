@@ -12,7 +12,7 @@
 }
 .content>h1{
     width: 80%;
-    font-size: 3rem;
+    font-size: 1.7rem;
     font-family: 'Montserrat', sans-serif;    
 }
 .content>h1>span{
@@ -32,7 +32,7 @@
     margin: 10px 90px 0px 30px;
 }
 .menu>ul>a{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: #000000;
     font-size: 1.2rem;
@@ -52,17 +52,16 @@
     padding-top: 2rem;
     overflow:hidden;
     background:none!important;
-    border-radius: 35px;
    
 }
 .gmap_canvas>iframe{
-    width: 50vw;
-    height: 50vh;
+    width: 40vw;
+    height: 30vh;
 }
 
 .fa-brands{
-    margin: 20px;
-    font-size: 2em;
+    margin: 15px 20px;
+    font-size: 1.5em;
     color: #000000
 }
 .copyright{

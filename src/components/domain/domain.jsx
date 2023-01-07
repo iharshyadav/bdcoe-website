@@ -38,7 +38,7 @@ export default function ResponsiveGrid() {
               <div className="flip-card">
                 <Item className="flip-card-front">
                   <img src={Domain.image} alt="img" width="90%"/>
-                  {Domain.name}
+                  <span className='dmnnm'>{Domain.name}<br/><br/></span>
                 </Item>
                 <Item className="flip-card-back">
                   <p> {Domain.content} </p>

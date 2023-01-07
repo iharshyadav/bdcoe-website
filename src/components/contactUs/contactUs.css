@@ -4,23 +4,31 @@
 .con-heading>h1{
     color: #FFFFFF;
     text-align: center;
-    font-size: 3rem;
-    line-height: 7rem;
+    font-size: 3.8rem;
+    line-height: 8rem;
     font-family: 'Montserrat', sans-serif;
     padding-top: 1rem;
 }
+.lbl{
+    color: #FFFFFF;
+    font-size: 1rem;
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+}
+.captcha{
+    display: inline-block;
+    margin-top: 20px;
+}
 .con-body{
-    display: flex;
     justify-content: space-around;
-    text-align: center;
     padding: 0 5% 0 5%;
 }
 .con-right{
-    display: flex;
+    
 }
 
-.con-left>h2, h3{
-    margin-top: 14px;
+.con-left{
+    margin: 14px 0;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
 }
@@ -34,6 +42,10 @@
     width: 640px;
     
 }
+input{
+    width: 14em;
+    border: 0;
+}
 input,
 textarea {
     vertical-align: middle;
@@ -43,16 +55,14 @@ textarea {
     color: rgba(4, 4, 4, 0.8);
     line-height: 1.5rem;
     outline: none;
-    border-radius: 10px;
-    margin: 15px;
+    border-radius: 5px;
+    margin: 19px 19px 19px 0px;
+    margin-top: 30px;
     padding: 0.5rem 1rem;
-}
-.scndclm{
-    display: flex;
 }
 textarea {
     padding: 1rem 1rem;
-    width: 400px;
+    width: 510px;
     height: 110px;
     line-height: 1em;
     border-style: dotted;
@@ -62,6 +72,11 @@ input[type="submit"] {
     cursor: pointer;
     color: rgba(7, 7, 7, 0.7);
     line-height: 1em;
+    padding: 10px 50px;
+    border: 0;
+    font-size: 1.25rem;
+    border-radius: 6px;
+    
 }
 
 input[type="submit"]:hover{
@@ -85,15 +100,27 @@ input[type="submit"]:focus {
 
 
 @media (max-width: 650px){
+    .con-heading>h1{
+        font-size: 3em;
+    }
     .con-body{
         flex-direction: column;
+    }
+    .lbl{
+        font-size: 1rem;
+        position: relative;
     }
     .scndclm{
         display: revert;
     }
     input, textarea{
-        padding: 15px;
-        width: 280px;
+        margin: 8px 0 13px;
+        padding: 10px;
+        width: 95%;
+    }
+
+    .captcha{
+        width: 92%;
     }
     .contact{
         width: 100%;
