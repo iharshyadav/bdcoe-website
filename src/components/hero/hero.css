@@ -10,6 +10,14 @@
 .t3>h3{
     color: #000;
 }
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+.img-grid{
+    padding: 0px;
+}
 .box1 {
     position: absolute;
     overflow: hidden;
@@ -44,5 +52,5 @@
 .t3{
     font-size: 1.1rem;
     position: relative;
-    bottom: -180px;
+    bottom: -110px;
 }
