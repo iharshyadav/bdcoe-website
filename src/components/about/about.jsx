@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './about.css'
 import about from '../../assets/images/about.svg'
-
+import Aos from "aos";
+import "aos/dist/aos.css"
 
 const About = () => {
+  useEffect(()=>{
+    Aos.init({duration : 2000})
+  }, []);
   return (
-    <section className='about section' id='About'>
+    <section className='about section'  id='About'>
         <div className='about__container'>
-            <div className='about__content'>
+            <div className='about__content'  data-aos="fade-right">
         <h1 className='about__title'>About Us</h1>
 
         <div className='about__description1'>
@@ -19,7 +23,7 @@ const About = () => {
         </div>
         </div>
 
-        <div className='about__img'>
+        <div className='about__img' data-aos='fade-up'>
         <img src={about} className='about__img' alt="img"/>
         </div>
         </div>

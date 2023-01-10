@@ -1,12 +1,19 @@
+ import React,{useEffect} from "react"
  import './hero.css'
  import Icon from './server'
+ import Aos from "aos";
+ import "aos/dist/aos.css"
+
  const Hero = () =>{
+    useEffect(()=>{
+        Aos.init({duration : 2000})
+      }, []);
     return <div className="home grid-container" id="home">
     {/* <div class="box1"></div> */}
-    <div className='grid-item img-grid '>
+    <div className='grid-item img-grid' data-aros="fade-right">
         <Icon/>
     </div>
-    <div className='grid-item hidden'>
+    <div className='grid-item hidden' data-aos="flip-left">
         <div className="t1">    
             <h1>BIG DATA - CENTER OF EXCELLENCE</h1>
         </div>
