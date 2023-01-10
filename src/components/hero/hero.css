@@ -35,6 +35,9 @@
     .t1{
         line-height: 5rem;
     }
+    .grid-container{
+        display: block;
+    }
 }
 @media screen and (max-width: 796px) {
     .t1{
