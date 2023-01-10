@@ -52,11 +52,14 @@
     padding-top: 2rem;
     overflow:hidden;
     background:none!important;
+    margin: 0;
    
 }
 .gmap_canvas>iframe{
     width: 40vw;
     height: 30vh;
+    overflow: hidden;
+    margin: 0;
 }
 
 .fa-brands{
