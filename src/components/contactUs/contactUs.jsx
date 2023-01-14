@@ -30,7 +30,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <label className="lbl">Message</label>
-                    <textarea name="message" placeholder="Your message here..." required></textarea>
+                    <textarea name="message" placeholder="Your Message Here" required></textarea>
                   </div>
                 </span>
                 <ReCAPTCHA

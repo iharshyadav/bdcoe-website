@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logoBlue from '../../assets/logoBlue.svg'
+import logoWhite from '../../assets/logo-white1.svg'
 import './navbar.css';
 
 function Navbar() {
@@ -14,7 +14,7 @@ function Navbar() {
     <header>
       <nav ref={navRef}>
         
-        <span className="logo"><img src={logoBlue} alt="logo"/><span className="logo-name">BDCOE</span></span>
+        <span className="logo"><img src={logoWhite} alt="logo"/><span className="logo-name">BDCOE</span></span>
         
         <span className="links">
           <a onClick={showNavbar} href="#About">About</a>

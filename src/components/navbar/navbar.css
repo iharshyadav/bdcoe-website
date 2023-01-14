@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -13,14 +14,14 @@ header{
 }
 header a{
     margin: 1rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     text-decoration: none;
-    color: #030332;
+    color: #ffffff;
 }
 header button{
     /* background-color: #D6E4E5; */
-    color: #030332;
+    color: #ffffff;
     border: none;
     font-size: 1.5rem;
 }
@@ -28,7 +29,7 @@ nav{
     position: absolute;
     display: flex;
     width: 100%;
-    background-color: #D6E4E5;
+    background-color: #051522;
     justify-content: space-between;
     align-items: center;
 }
@@ -36,18 +37,23 @@ nav{
     line-height: 1rem;
 } */
 .logo{
+    color: #ffffff;
+    
     margin-left: 10px;
     display: flex;
     align-items: center;
     font-size: 1.5rem;
+}
+.logo>img{
+    width: 60px;
 }
 .regbtn{
     padding: 5px 10px;
     font-size: 1.3rem;
     margin-right: 45px;
     border-radius: 7px;
-    background-color: #030332;
-    color: #D6E4E5;
+    background-color: #ffffff;
+    color: #051522;
 }
 .nav-btn{
     background: transparent;
@@ -66,6 +72,7 @@ nav{
 .nav-open-btn{
     margin: 20px;
     font-size: 30px;
+    color: #051522;
 }
 .resnav{
     position: absolute;
@@ -89,7 +96,7 @@ header nav{
     gap: 1.5rem;
     transition: 0.7s;
     transform: translate(-200vw);
-    background-color: #D6E4E5;
+    background-color: #051522;
 }
 .links{
     font-size: 1.5rem;
@@ -110,7 +117,8 @@ header nav{
     transform: none;
 }
 .nav-close-btn{
-    background-color: #D6E4E5;
+    color: #ffffff;
+    background-color: #051522;
     position: absolute;
     top: 1.2rem;
     right: 1.2rem;
