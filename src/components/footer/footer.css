@@ -43,22 +43,7 @@
     justify-content: center;
 }
 
-.mapouter{
-    margin-right: 100px;
-    width: 500px;
-}    
-.gmap_canvas {
-    padding-left: 2rem;
-    padding-top: 2rem;
-    overflow:hidden;
-    background:none!important;
-}
-.gmap_canvas>iframe{
-    width: 40vw;
-    height: 30vh;
-    overflow: hidden;
-    margin: 0;
-}
+
 
 .fa-brands{
     margin: 15px 20px;
@@ -76,19 +61,7 @@
         overflow: hidden;
         flex-direction: column;
     }
-    .gmap_canvas>iframe{
-        width: 90vw;
-        height: 30vh;
-    }
-    .gmap_canvas{
-        padding: 0;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-
-    }
+    
     .menu{
         margin-left: 25vw;
     }
@@ -106,11 +79,5 @@
     .menu>ul{
         text-align: center;
     }
-    .map{
-        align-items: center;
-    }
-    .mapouter{
-        overflow-x: hidden;
-        margin: 0px;
-    }
+    
 }

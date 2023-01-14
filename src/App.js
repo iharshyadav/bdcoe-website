@@ -1,5 +1,6 @@
 // import ComingSoon from './pages/ComingSoon';
 import Home from './pages/home'
+//import Team from './pages/team'
 import './App.css';
 import {Routes ,Route} from 'react-router-dom'
 
