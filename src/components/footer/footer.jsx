@@ -1,19 +1,27 @@
 import React from 'react'
+import logoWhite from '../../assets/logo-white.png'
 import './footer.css'  
 
 const Footer = () => {
   return (
     <>
     <div className='footer'>
-        <div className="left">
-            <div className="content">
-            <h1><span> Big Data </span> - Centre Of Excellence</h1>
-            <br/>
-            <p className='cnt'>    
-            is the R & D Centre established under Ajay Kumar Garg Engineering College, Ghaziabad. <br/>
-            
-            At BDCE , we strive to stimulate interest in Big Data concept and related technologies among the students of the Instutions. Besides making serious endeavors to spread knowledge on Big Data, we stand by the stuble acronym of TEAM - 'Together Everyone Achieves More'.
-            </p>
+        <div className='footer-container'>
+            <div className="left footer-child">
+                <div className="content">
+                <h1><span> Big Data </span> - Centre Of Excellence</h1>
+                <br/>
+                <p className='cnt'>    
+                is the R & D Centre established under Ajay Kumar Garg Engineering College, Ghaziabad. <br/>
+                
+                At BDCE , we strive to stimulate interest in Big Data concept and related technologies among the students of the Instutions. Besides making serious endeavors to spread knowledge on Big Data, we stand by the stuble acronym of TEAM - 'Together Everyone Achieves More'.
+                </p>
+                </div>
+            </div>
+            <div className='footer-child logo-child'>
+                <div className='footer-logo'>
+                    <img src={logoWhite} alt="logo"/>
+                </div>
             </div>
         </div>
     </div>
