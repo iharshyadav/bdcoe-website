@@ -10,12 +10,15 @@
       }, []);
     return <div className="home grid-container" id="home">
     {/* <div class="box1"></div> */}
-    <div className='grid-item img-grid' data-aros="fade-right">
+    <div className='grid-item img-grid'>
         <Icon/>
     </div>
-    <div className='grid-item hidden' data-aos="flip-left">
+    <div className='grid-item hidden' 
+    // data-aos="flip-left"
+    >
         <div className="t1">    
-            <h1>BIG DATA - CENTER OF EXCELLENCE</h1>
+            <h1>BIG DATA </h1> 
+            <h1>CENTER OF EXCELLENCE</h1>
         </div>
         <div className="t2 hidden">    
             <h2>Decipher Your Destiny</h2>

@@ -18,7 +18,7 @@ function Navbar() {
         
         <span className="links">
           <a onClick={showNavbar} href="#About">About</a>
-          <a onClick={showNavbar} href="/">Events</a>
+          <a onClick={showNavbar} href="/event">Events</a>
           <a onClick={showNavbar} href="#Domains">Domains</a>
           <a onClick={showNavbar} href="/team">Team</a>
           <a onClick={showNavbar} href="#Contact">Contact Us</a>

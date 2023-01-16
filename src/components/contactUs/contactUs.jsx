@@ -5,7 +5,7 @@ import ReCAPTCHA from "react-google-recaptcha"
 const ContactUs = () => {
   const [verified, setVerified] = useState(false);
   return (
-    <div>
+    <div id="Contact">
       <div className="contact">
         <div className="con-heading">
           <h1>Contact Us</h1>
