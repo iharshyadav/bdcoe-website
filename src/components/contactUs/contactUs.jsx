@@ -34,16 +34,12 @@ const ContactUs = () => {
         recaptchaValue
       }).then((res)=>{alert(res.data.message)})
       .catch(error=>{alert(error.response.message)});
-      console.log({...user,recaptchaValue})
+      //console.log({...user,recaptchaValue})
       setUser({
         name:"",
         email:"",
         message:"",
       })
-      // console.log({
-      //   ...user,
-      //   recaptchaValue
-      // })
   }
   return (
     <div id="Contact">
