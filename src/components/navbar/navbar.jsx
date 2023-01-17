@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import {Link} from 'react-router-dom'
 import logoWhite from '../../assets/logo-white1.svg'
 import './navbar.css';
 
@@ -18,9 +19,9 @@ function Navbar() {
         
         <span className="links">
           <a onClick={showNavbar} href="#About">About</a>
-          <a onClick={showNavbar} href="/event">Events</a>
+          <Link onClick={showNavbar} to="/event">Events</Link>
           <a onClick={showNavbar} href="#Domains">Domains</a>
-          <a onClick={showNavbar} href="/team">Team</a>
+          <Link onClick={showNavbar} to="/team">Team</Link>
           <a onClick={showNavbar} href="#Contact">Contact Us</a>
         </span>
 
