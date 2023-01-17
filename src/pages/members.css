@@ -1,0 +1,42 @@
+.members{
+    background-color: #051522;
+    font-family: 'Roboto', sans-serif;
+}
+header > h1 {
+    line-height: 5rem;
+    font-size: 2.1rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #D6E4E5;   
+}
+
+.dropBatch{
+    padding: 10px;
+    margin-left: 130px;
+    border-radius: 10px;
+}
+
+footer > h1{
+    line-height: 5rem;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+    min-height: 30vh;
+    color: #D6E4E5;
+    text-align: center;
+}
+
+@media screen and (max-width:600px){
+    .dropBatch{
+        margin: 10px;
+    }
+    .members>footer>p{
+        text-align: justify;
+        padding: 30px;
+    }
+    .members>footer>h1{
+        line-height: 2rem;
+    }
+}

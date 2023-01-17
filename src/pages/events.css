@@ -42,7 +42,9 @@
     position: relative;
     display: flex;
     align-items:center;
-    box-shadow: 0px 7px 10px rgba(0, 0,0,0.5);
+    /* box-shadow: 0px 7px 10px rgba(0, 0,0,0.5); */
+    border: 3px solid #051522;
+    border-radius: 6px;
     transition: 0.5s ease-in-out;
 }
 .card:hover{
@@ -110,11 +112,16 @@
     .wrapper{
         display: flex;
         flex-direction: column;
-        row-gap: 2rem;
+        row-gap: 3rem;
         align-items: center;
         justify-content: center;
+        position: absolute;
+        margin-bottom: 2rem
     }
     .event>hr{
         width: 94%;
+    }
+    .event{
+        height: 200vh;
     }
 }
