@@ -1,0 +1,120 @@
+.event{
+    background: #e5ecec;
+    height: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.event>h1{
+    line-height: 8rem;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.event>hr{
+    width: 97%;
+    height: 6px;
+    margin-left: 20px;
+    background-color: black;
+    text-align: center;
+}
+.event>.wrapper1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    line-height: 2rem;
+    font-size: 20px;
+
+}
+.wrapper{
+    margin: 3.5rem 0;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+
+}
+.card{
+    width: 18rem;
+    height: 22rem;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 2rem 1rem;
+    position: relative;
+    display: flex;
+    align-items:center;
+    box-shadow: 0px 7px 10px rgba(0, 0,0,0.5);
+    transition: 0.5s ease-in-out;
+}
+.card:hover{
+    transform: translateY(3px);
+}
+.card::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #eaf1f1c4, #eaf1f1be);
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+}
+.card:hover::before{
+    opacity: 1;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card .info{
+    position: relative;
+    z-index: 3;
+    color: #051522;
+    opacity: 0;
+    font-weight: 600;
+    
+    transform: translateY(30px);
+    transition: 0.5s all;
+}
+.info>p{
+    font-family: 'Roboto', sans-serif;
+}
+.card:hover .info{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+@media screen and (min-width: 900px) and (max-width: 1100px){
+    .card{
+        width: 15rem;
+        height: 18rem;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 900px){
+    .card{
+        width: 11rem;
+        height: 15rem;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 700px){
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .event>hr{
+        width: 94%;
+    }
+}

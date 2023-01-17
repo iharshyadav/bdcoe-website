@@ -31,10 +31,10 @@
 }
 
 .about__img {
+    overflow-x: hidden;
     width: 550px;
     padding-left: 2rem;
     padding-top: 2rem;
-    
 }
 
 

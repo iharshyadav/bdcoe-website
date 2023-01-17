@@ -10,6 +10,15 @@
 .t3>h3{
     color: #000;
 }
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+.img-grid{
+    padding: 10%;
+}
 .box1 {
     position: absolute;
     overflow: hidden;
@@ -21,11 +30,19 @@
     transform: rotate(90deg);
 }
 .t1{
+    margin-top: 100px;
     font-size: 1.5rem;
 }
+
 @media screen and (max-width: 796px) {
     .t1{
+        margin-top: 0;
         line-height: 5rem;
+    }
+    
+    .grid-container{
+        display: block;
+        height: fit-content;
     }
 }
 @media screen and (max-width: 796px) {
@@ -33,16 +50,15 @@
         font-size: 1.3rem;
     }
     .t2{
+
         font-size: 0.5rem;
     }
 }
-
 .t2{
     font-size: 1.2rem;
-    line-height: 2.5rem;
+    line-height: 5rem;
 }
 .t3{
     font-size: 1.1rem;
-    position: relative;
-    bottom: -180px;
+    line-height: 10rem;
 }

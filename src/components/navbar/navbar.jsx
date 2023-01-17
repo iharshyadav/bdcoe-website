@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logoBlue from '../../assets/logoBlue.svg'
+import logoWhite from '../../assets/logo-white1.svg'
 import './navbar.css';
 
 function Navbar() {
@@ -14,11 +14,11 @@ function Navbar() {
     <header>
       <nav ref={navRef}>
         
-        <span className="logo"><img src={logoBlue} alt="logo"/><span className="logo-name">BDCOE</span></span>
+        <span className="logo"><img src={logoWhite} alt="logo"/><span className="logo-name">BDCOE</span></span>
         
         <span className="links">
           <a onClick={showNavbar} href="#About">About</a>
-          <a onClick={showNavbar} href="/">Events</a>
+          <a onClick={showNavbar} href="/event">Events</a>
           <a onClick={showNavbar} href="#Domains">Domains</a>
           <a onClick={showNavbar} href="/team">Team</a>
           <a onClick={showNavbar} href="#Contact">Contact Us</a>
