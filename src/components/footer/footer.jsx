@@ -17,8 +17,8 @@ const Footer = () => {
                         </div>
                         <div className="menu">
                             <ul>
-                                <li><a href="#home">Home</a></li>
-                                <li><a href="#domains">Domains</a></li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/#domains">Domains</a></li>
                                 <li><a href="/team">Team</a></li>
                                 <li><a href="/event">Events</a></li>
                             </ul>

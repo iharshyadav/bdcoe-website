@@ -18,11 +18,11 @@ function Navbar() {
         <span className="logo"><img src={logoWhite} alt="logo"/><span className="logo-name">BDCOE</span></span>
         
         <span className="links">
-          <a onClick={showNavbar} href="#About">About</a>
+          <a onClick={showNavbar} href="/#about">About</a>
           <Link onClick={showNavbar} to="/event">Events</Link>
-          <a onClick={showNavbar} href="#Domains">Domains</a>
+          <a onClick={showNavbar} href="/#domains">Domains</a>
           <Link onClick={showNavbar} to="/team">Team</Link>
-          <a onClick={showNavbar} href="#Contact">Contact Us</a>
+          <a onClick={showNavbar} href="/#contact">Contact Us</a>
         </span>
 
         
