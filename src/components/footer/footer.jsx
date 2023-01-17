@@ -1,5 +1,5 @@
 import React from 'react'
-import logoWhite from '../../assets/logo-white1.svg'
+import footerLogo from '../../assets/footer-logo.svg'
 import './footer.css'
 
 const Footer = () => {
@@ -12,22 +12,20 @@ const Footer = () => {
                             <h1><span> Big Data </span> - Centre Of Excellence</h1>
                             <br />
                             <p className='cnt'>
-                            At Big Data Centre of Excellence, we believe that collaboration and teamwork are key to success. Our mission is to help students gain knowledge on Big Data technologies and concepts to leverage their potential and achieve success in their respective fields. Besides making serious endeavors to spread knowledge on Big Data, we stand by the stuble acronym of TEAM - "Together Everyone Achieves More".
+                                At Big Data Centre of Excellence, we believe that collaboration and teamwork are key to success. Our mission is to help students gain knowledge on Big Data technologies and concepts to leverage their potential and achieve success in their respective fields. Besides making serious endeavors to spread knowledge on Big Data, we stand by the stuble acronym of TEAM - "Together Everyone Achieves More".
                             </p>
                         </div>
                         <div className="menu">
                             <ul>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="#Domains">Domains</a></li>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#domains">Domains</a></li>
                                 <li><a href="/team">Team</a></li>
-                                <li><a href="#About">About</a></li>
+                                <li><a href="/event">Events</a></li>
                             </ul>
                         </div>
                     </div>
-                    <div className='footer-child logo-child'>
-                        <div className='footer-logo'>
-                            <img src={logoWhite} alt="logo" />
-                        </div>
+                    <div className='right footer-child'>
+                        <img src={footerLogo} alt="logo" />
                     </div>
                 </div>
             </div>
