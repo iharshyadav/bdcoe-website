@@ -7,7 +7,7 @@
 
 .footer-container {
     display: grid;
-    grid-template-columns: 1.5fr 0.5fr;
+    grid-template-columns: 3fr 1fr;
 }
 
 .content {
@@ -24,7 +24,7 @@
 }
 
 .content>h1>span {
-    color: #5793C9;
+    color: #2388e1  ;
 }
 
 .cnt {
@@ -43,14 +43,14 @@
 .menu>ul a {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    color: #383838;
+    color: #000000;
     font-size: 1.2rem;
     margin: 10px;
     transition: all 0.2s ease;
 }
 
 .menu>ul a:hover {
-    color: #000000;
+    color: #2388e1;
 }
 
 .menu>ul>li {
@@ -63,18 +63,21 @@
     justify-content: center;
 }
 
-.footer-logo {
-    background-color: #051522;
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
-    margin: 20px 0;
+.social i {
+    transition: all 0.2s ease;
 }
 
-.footer-logo>img {
-    margin: 25px 17px;
-    width: 150px;
+.social i:hover {
+    transform: scale(1.2);
+}
 
+.right {
+    display: flex;
+    margin: 2.5rem 0;
+}
+
+.right>img {
+    width: 15rem;
 }
 
 .fa-brands {
