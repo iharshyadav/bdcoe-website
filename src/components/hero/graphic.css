@@ -1,0 +1,139 @@
+svg #freepik_stories-server:not(.animated) .animable {
+    opacity: 0;
+}
+
+svg #freepik_stories-server .animated #freepik--background-complete--inject-32 {
+    animation: 0.7s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideDown, 1.5s Infinite linear floating;
+    animation-delay: 0.3s, 1s;
+    opacity: 0
+}
+
+svg #freepik_stories-server .animated #freepik--Server--inject-32 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideDown, 1.5s Infinite linear floating;
+    animation-delay: 0s, 1s;
+}
+
+svg #freepik_stories-server .animated #freepik--Character--inject-32 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideRight, 1.5s Infinite linear floating;
+    animation-delay: 0s, 1s;
+}
+
+svg #freepik_stories-server .animated #freepik--Plant--inject-32 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideDown, 1.5s Infinite linear floating;
+    animation-delay: 0s, 1s;
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes floating {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animator-hidden {
+    display: none;
+}
+
+
+
+svg#freepik_stories-server:not(.animated) .animable {
+    opacity: 0;
+}
+
+svg#freepik_stories-server.animated #freepik--background-complete--inject-32 {
+    animation: 0.7s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideDown, 1.5s Infinite linear floating;
+    animation-delay: 0.3s, 1s;
+    opacity: 0
+}
+
+svg#freepik_stories-server.animated #freepik--Server--inject-32 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideDown, 1.5s Infinite linear floating;
+    animation-delay: 0s, 1s;
+}
+
+svg#freepik_stories-server.animated #freepik--Character--inject-32 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideRight, 1.5s Infinite linear floating;
+    animation-delay: 0s, 1s;
+}
+
+svg#freepik_stories-server.animated #freepik--Plant--inject-32 {
+    animation: 1s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideDown, 1.5s Infinite linear floating;
+    animation-delay: 0s, 1s;
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes floating {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animator-hidden {
+    display: none;
+}
