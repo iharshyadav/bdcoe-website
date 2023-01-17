@@ -1,7 +1,8 @@
 // import ComingSoon from './pages/ComingSoon';
 import Home from './pages/home'
 import Event from './pages/events'
-import Team from './pages/team'
+//import Team from './pages(prev)/team'
+import Members from './pages/members'
 import './App.css';
 import {BrowserRouter as Router, Routes ,Route} from 'react-router-dom'
 
@@ -11,7 +12,7 @@ const App = () => {
 		<Router>
 			<Routes>
 				<Route exact path='/' element={<Home/>}/>		
-				<Route path='/team' element={<Team/>} />
+				<Route path='/team' element={<Members/>} />
 				<Route path='/event' element={<Event/>} />		
 			</Routes>
 		</Router>

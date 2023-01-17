@@ -1,0 +1,45 @@
+.child-album{
+    background-color: #D6E4E5;
+    margin: 30px;
+    border-radius: 10px;
+    width: 190px;
+    min-width: fit-content; 
+}
+.child-album>h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
+.child-album>p{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    font-size: small;
+}
+.overlay{
+    z-index: 1;
+    min-width: 180px;
+    min-height: 180px; 
+    max-width: 180px;
+    max-height: 180px;   
+    margin: 5px;
+    border-radius: 10px;
+}
+.icons-member{
+    position: absolute;
+    z-index: 11;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+@media screen and (max-width: 700px) and (min-width: 100px){
+    .child-album{
+        margin: 9px;
+    }
+    
+}
+@media screen and (max-width: 100px) {
+    .child-album{
+        margin: 9px;
+    }
+}
