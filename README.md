@@ -15,44 +15,44 @@ Big Data is becoming an increasingly important tool for businesses to better und
 ## Domains
 
 <details>
-    <summary>Big Data</summary>
+<summary><b>Big Data</b></summary>
 
-    Big data is a term used to describe large and complex datasets that cannot be handled by traditional data processing applications. It is the collection of massive amounts of structured and unstructured data from different sources that can be used to identify patterns, trends and correlations to help companies make better decisions and gain a competitive advantage.
-
-</details>
-
-<details>
-    <summary>Machine Learning</summary>
-    
-    Machine learning is the process of using algorithms to enable systems to learn and improve from experience without being explicitly programmed. It is a subset of artificial intelligence that focuses on computer algorithms to learn from data, identify patterns, and make decisions. It is a powerful tool for businesses as it can help to make accurate predictions and increase efficiency by automating multiple tasks.
+_Big data is a term used to describe large and complex datasets that cannot be handled by traditional data processing applications. It is the collection of massive amounts of structured and unstructured data from different sources that can be used to identify patterns, trends and correlations to help companies make better decisions and gain a competitive advantage._
 
 </details>
 
 <details>
-    <summary>Web Development</summary>
-    
-    Web development is the process of building, creating, and maintaining websites. It involves web design, web content development, client & server-side scripting, and network security configuration including use of multiple technologies. Web Development is an ever-evolving and an important skill that can lead to a successful career in the tech industry.
+<summary><b>Machine Learning</b></summary>
+
+_Machine learning is the process of using algorithms to enable systems to learn and improve from experience without being explicitly programmed. It is a subset of artificial intelligence that focuses on computer algorithms to learn from data, identify patterns, and make decisions. It is a powerful tool for businesses as it can help to make accurate predictions and increase efficiency by automating multiple tasks._
 
 </details>
 
 <details>
-    <summary>Application Development</summary>
-    
-    App development is an emerging field due to the ever increasing popularity of mobile devices and the demand for more powerful and feature rich applications. It requires a deep understanding of the mobile platform, user interface design, and the capabilities of the device. App development is a rewarding and challenging career, and those with the right skillset have the potential to create highly successful and popular apps.
+<summary><b>Web Development</b></summary>
+
+_Web development is the process of building, creating, and maintaining websites. It involves web design, web content development, client & server-side scripting, and network security configuration including use of multiple technologies. Web Development is an ever-evolving and an important skill that can lead to a successful career in the tech industry._
 
 </details>
 
 <details>
-    <summary>Competitive Programming</summary>
-    
-    Competitive programming is a mind sport where participants attempt to write programs to solve a given problem faster and more accurately than others. Competitive programming is a great way to hone programming and problem solving skills, as well as to learn about algorithms and data structures. Additionally, it is a great way to practice coding and develop logical thinking skills.
+<summary><b>Application Development</b></summary>
+
+_App development is an emerging field due to the ever increasing popularity of mobile devices and the demand for more powerful and feature rich applications. It requires a deep understanding of the mobile platform, user interface design, and the capabilities of the device. App development is a rewarding and challenging career, and those with the right skillset have the potential to create highly successful and popular apps._
 
 </details>
 
 <details>
-    <summary>UI/UX Designing</summary>
-    
-    UI/UX design involves understanding the needs and goals of users and then designing visually pleasing and functional interfaces. UI/UX design is an important part of software development, as it allows for user feedback and testing that can be used to refine the design. It is a highly iterative process that focuses on creating an engaging and intuitive experience for users.
+<summary><b>Competitive Programming</b></summary>
+
+_Competitive programming is a mind sport where participants attempt to write programs to solve a given problem faster and more accurately than others. Competitive programming is a great way to hone programming and problem solving skills, as well as to learn about algorithms and data structures. Additionally, it is a great way to practice coding and develop logical thinking skills._
+
+</details>
+
+<details>
+<summary><b>UI/UX Designing</b></summary>
+
+_UI/UX design involves understanding the needs and goals of users and then designing visually pleasing and functional interfaces. UI/UX design is an important part of software development, as it allows for user feedback and testing that can be used to refine the design. It is a highly iterative process that focuses on creating an engaging and intuitive experience for users._
 
 </details>
 
