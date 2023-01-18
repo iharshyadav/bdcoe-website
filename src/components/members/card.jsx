@@ -22,21 +22,14 @@ else if(domain==='DE'){
 }
 return<>
     <div className='child-album' >
-        {Hover &&  <div className='icons-member'>
-            <a href={"https://www.linkedin.com/in/"+LI} target="_blank" rel="noreferrer"
-            onMouseOver={()=>setHover(true)}
-            onMouseOut={()=>setHover(false)}>
-                <i class="fa-brands fa-linkedin"></i></a>
-            <a href={"https://www.instagram.com/"+ (IG ? IG:"bdcoe")} target="_blank" rel="noreferrer"
-            onMouseOver={()=>setHover(true)}
-            onMouseOut={()=>setHover(false)}><i class="fa-brands fa-square-instagram"></i></a>
-            <a href={"https://github.com/"+GH} target="_blank" rel="noreferrer"
-            onMouseOver={()=>setHover(true)}
-            onMouseOut={()=>setHover(false)}><i class="fa-brands fa-github"></i></a>
+        {Hover &&  <div className='icons-member' onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)}>
+            <a href={"https://www.linkedin.com/in/"+LI} target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+            <a href={"https://www.instagram.com/"+ (IG ? IG:"bdcoe")} target="_blank" rel="noreferrer"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href={"https://github.com/"+GH} target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
         </div>}
         <img className='overlay' 
             src={img}
-            onMouseOver={()=>setHover(true)}
+            onMouseEnter={()=>setHover(true)}
             onMouseOut={()=>setHover(false)}
             style={Hover ? {opacity:0.3} : null}
             alt='bdcoe'
