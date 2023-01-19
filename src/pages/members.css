@@ -3,40 +3,50 @@
     font-family: 'Roboto', sans-serif;
 }
 header > h1 {
-    line-height: 5rem;
-    font-size: 2.1rem;
+    line-height: 10rem;
+    font-size: 4rem;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     color: #D6E4E5;   
 }
 
 .dropBatch{
+    background-color: #051522;
+    color: #D6E4E5;
     padding: 10px;
-    margin-left: 130px;
+    margin-left: 8vw;
     border-radius: 10px;
+    font-size: 1.2rem;
 }
 
 footer > h1{
     line-height: 5rem;
     font-size: 1.5rem;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
-footer{
+footer{ 
     min-height: 30vh;
     color: #D6E4E5;
+    margin: 0 110px;
     text-align: center;
 }
 
 @media screen and (max-width:600px){
-    .dropBatch{
-        margin: 10px;
-    }
     .members>footer>p{
         text-align: justify;
-        padding: 30px;
+        padding: 35px;
     }
     .members>footer>h1{
         line-height: 2rem;
+    }
+    .dropBatch{
+        font-size: 0.9rem;
+        margin-left: 20px;
+    }
+    footer{
+        display: none;
+        /* margin: 0 1vw; */
     }
 }

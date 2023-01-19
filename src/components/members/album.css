@@ -10,7 +10,7 @@
 @media screen and (max-width: 800px) and (min-width: 100px){
     .container-album{
         grid-template-columns : 1fr 1fr;
-        padding: 0px;
+        padding: 15px;
     }
 }
 @media screen and (max-width: 100px) {

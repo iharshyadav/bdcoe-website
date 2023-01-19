@@ -13,7 +13,7 @@ const Album = ({batch}) => {
       }, []);
     //console.log(value)
     if (!value) return null;
-    
+    if(value.imageUrl) return 11;
     return <>
     
     <div className='container-album'>
