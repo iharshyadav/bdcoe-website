@@ -1,0 +1,134 @@
+.eventreport{
+    margin: 0;
+    padding: 0;
+}
+.eventhero{
+    background: linear-gradient( rgba(210, 208, 208, 0.523),rgba(246, 214, 214, 0.589)),url('../assets/images/_DSC8155.jpg');
+    /* background: url('../assets/images/snrcna.png'); */
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    object-fit: cover;
+    height: 20em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.eventdate{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: auto;
+    background-color: #122637;
+    padding: 2rem 3rem;
+    box-shadow: 0px 0px 10px #051522;
+    border-radius: 1em;
+}
+.eventtitle{
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    color: #ecd1d1;
+    text-shadow: 0px 0px 11px #051522;
+    text-transform: uppercase;
+}
+.divdate{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+.day{
+    padding: 0 1rem;
+}
+.day>p{
+    text-align: center;
+}
+.date>p , .month>p , .year>p, .day>p{
+    background-color: rgb(252, 251, 251);
+    color: #051522;
+    padding: 1rem 0.5rem;
+    border-radius: 0.5em;
+    font-family: 'roboto';
+    font-size: 1.5em;
+    box-shadow: 0px 0px 8px #ffffff;
+}
+.eventdesc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    
+}
+.desc , .poster{
+    flex: 1;
+    align-items: center;
+}
+.poster{
+    padding-left: 17%;
+
+}
+.poster>img{
+    box-shadow: 0px 0px 10px #051522;
+    border-radius: 1rem;
+}
+.desc{
+    padding-left: 10%;
+    justify-content: center;
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 1.5em;
+}
+h2{
+    text-align: center;
+    margin: 3rem 0;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+#img-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   }
+   
+/* ----------------mobile-------------- */
+
+@media screen and (max-width: 860px){
+    body, html{
+        overflow-x: hidden;
+    }
+    .eventhero{
+        flex-direction: column;
+        height: fit-content;
+        padding-bottom: 1em;
+    }
+    .eventtitle{
+        padding-top: 2em;
+        font-size: 2em;
+        text-align: center;
+    }
+    .eventdate{
+        padding: 5%;
+        margin-top: 2rem;
+    }
+    .date>p , .month>p , .year>p, .day>p{
+        font-size: 1em;
+    }
+    .eventdesc{
+        flex-direction: column;
+    }
+    .desc{
+        font-size: 1.2em;
+        padding-left: 0;
+    }
+    .poster{
+        margin-top:2em;
+        justify-content: center;
+    }
+    .poster>img{
+        margin-left: 0;
+        padding-left: 0;
+        width: 80%;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    
+}

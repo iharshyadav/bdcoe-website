@@ -1,5 +1,7 @@
 import React from 'react'
 import EventCard from './eventCard'
+import Footer from '../footer/footer'
+// import EventPopup from './EventPopup'
 
 
 const EventAlbum = ({data}) =>{
@@ -10,11 +12,15 @@ const EventAlbum = ({data}) =>{
         <EventCard
             key={i._id}
             code={i.code}
-            img={i.images}
+            img={i.poster}
             desc= {i.description}
+            data={data}
         />
+        
     ))}
+
     </div>
+    
 </div>
 }
 

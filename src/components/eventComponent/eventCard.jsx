@@ -1,26 +1,27 @@
-import React from 'react'
-import img1 from '../../assets/images/codemaze.png'
-import img2 from '../../assets/images/techkdown.png'
+import React,{useState} from "react";
+// import EventPopup from "./EventPopup";
+// import'./eventPopup.css'
+import img1 from "../../assets/images/codemaze.png";
+import img2 from "../../assets/images/techkdown.png";
+import EventReport from "../../pages/EventReport";
+import { Link } from "react-router-dom";
 
-const EventCard = ({img, desc,code}) => {
-    return <>
-        <div className='card'>
-            {
-            code==="4567890"
-            ?
-            <img src={img1} alt='img'/>
-            :
-            code=== "23456"
-            ?
-            <img src={img2} alt='img'/>
-            :
-            <img src={img} alt='img'/>
-            }
-            <div className='info'>
-                <p>{desc}</p>
-            </div>
-        </div>
+const EventCard = ({ data,code,img }) => {
+
+  const to = {
+    pathname: `/event/${code}`,
+    code
+  }
+
+  return (
+    <>
+    <Link to={to} >
+      <div className="card">
+          <img src={img} alt="img" />
+      </div>
+      </Link>
     </>
-}
+  );
+};
 
-export default EventCard
+export default EventCard;

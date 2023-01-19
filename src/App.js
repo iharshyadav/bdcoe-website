@@ -1,6 +1,7 @@
 // import ComingSoon from './pages/ComingSoon';
 import Home from './pages/home'
 import Event from './pages/events'
+import EventReport from './pages/EventReport';
 //import Team from './pages(prev)/team'
 import Members from './pages/members'
 import './App.css';
@@ -13,6 +14,7 @@ const App = () => {
 			<Routes>
 				<Route exact path='/' element={<Home/>}/>		
 				<Route path='/team' element={<Members/>} />
+				<Route path='/event/:code' element={<EventReport/>} />
 				<Route path='/event' element={<Event/>} />		
 			</Routes>
 		</Router>
