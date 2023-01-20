@@ -4,7 +4,7 @@ import axios from 'axios'
 import './album.css'
 const baseURL ="https://bdcoe.onrender.com/api/v1/member"
 const Album = ({batch}) => {
-    // const num = [1,2,3,4,5,6,7,8,9]
+    
     const [value,setValue] = useState()
     React.useEffect(() => {
         axios.get(baseURL).then((response) => {

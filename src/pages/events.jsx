@@ -24,7 +24,6 @@ const Events = () => {
                 <EventAlbum
                     data={data}
                 />
-
             </div>
             <Footer />
         </section>
