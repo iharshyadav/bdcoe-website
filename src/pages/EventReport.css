@@ -1,6 +1,6 @@
 .eventreport{
     margin: 0;
-    padding: 0;
+    padding-top: 3.5em;
 }
 .eventhero{
     background: linear-gradient( rgba(210, 208, 208, 0.523),rgba(246, 214, 214, 0.589)),url('../assets/images/_DSC8155.jpg');

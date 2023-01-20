@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Masonry from "react-responsive-masonry";
 import "./EventReport.css";
+import Navbar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
 import img1 from "../assets/images/codemaze.png";
 import img2 from "../assets/images/techkdown.png";
@@ -46,6 +47,7 @@ const EventReport = () => {
 
   return (
     <>
+    <Navbar />
       <div className="eventreport">
         <div className="eventhero">
           <div className="eventtitle">
