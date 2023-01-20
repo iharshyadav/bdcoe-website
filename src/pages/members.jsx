@@ -2,11 +2,17 @@ import React,{useState} from 'react'
 import Album from '../components/members/album'
 import Footer from '../components/footer/footer'
 import './members.css'
+import { Link } from 'react-router-dom'
 const Members = () => {
     const [batch,setBatch]=useState(2025);
     return <>
     <div className='members'>
         <header>
+            <Link to='/'>
+        <div className='bicon'>
+            <i id='backicon'className="fa-solid fa-arrow-left-long"></i>
+            </div>
+            </Link>
         <h1>Team</h1>
         </header>
         <select className='dropBatch' onChange={(e)=>{setBatch(e.target.value)}} name="year">

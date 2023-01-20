@@ -27,18 +27,6 @@
     font-size: 20px;
     padding-bottom: 4rem;
 }
-/* .event>.wrapper1{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    
-} */
-/* .wrapper{
-    margin: 3.5rem 0;
-    display: flex;
-    width: 80%;
-    justify-content: space-between;
-
-} */
 .wrapper{
     display: grid;
     grid-template-columns: auto auto auto;

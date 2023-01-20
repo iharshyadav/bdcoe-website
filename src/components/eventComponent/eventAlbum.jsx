@@ -1,7 +1,5 @@
 import React from 'react'
 import EventCard from './eventCard'
-import Footer from '../footer/footer'
-// import EventPopup from './EventPopup'
 
 
 const EventAlbum = ({data}) =>{
@@ -20,7 +18,6 @@ const EventAlbum = ({data}) =>{
     ))}
 
     </div>
-    
 </div>
 }
 

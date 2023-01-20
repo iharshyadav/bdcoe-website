@@ -2,8 +2,6 @@ import React, {useEffect, useState} from 'react'
 import { useParams } from 'react-router-dom';
 import "./EventReport.css";
 import Footer from '../components/footer/footer';
-import img1 from "../assets/images/codemaze.png";
-import img2 from "../assets/images/techkdown.png";
 // import Gallery from "react-photo-album";
 
 const EventReport = () => {
@@ -56,7 +54,6 @@ const EventReport = () => {
           <img src={data.poster} width="300rem" alt="" />
         </div>
       </div>
-    {/* })} */}
       <div className="eventphotos">
         <h2 className="eventphotohead">Event Photos</h2>
         {/* <Gallery images={} /> */}
