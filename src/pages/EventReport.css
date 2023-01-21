@@ -72,7 +72,7 @@
     justify-content: center;
     text-align: center;
     font-family: 'roboto';
-    font-size: 1.5em;
+    font-size: 1.1rem;
 }
 h2{
     text-align: center;
@@ -113,8 +113,8 @@ h2{
         flex-direction: column;
     }
     .desc{
-        font-size: 1.2em;
-        padding-left: 0;
+        font-size: 1rem;
+        padding: 15px 20px;
     }
     .poster{
         margin-top:2em;
