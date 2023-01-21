@@ -15,17 +15,25 @@ const Hero = () => {
         <div className='grid-item hidden'
         // data-aos="flip-left"
         >
-            <div className="t1">
-                <h1>BIG DATA </h1>
-                <h1>CENTRE OF EXCELLENCE</h1>
+           
+            <div className="coehead hidden">
+                
+                <p>BIG DATA</p>
+                <p>BIG DATA</p>            
+                <p>CENTER OF EXCELLECE</p>
+                <p>CENTER OF EXCELLECE</p>
             </div>
+
+
             <div className="t2 hidden">
-                <h2>Decipher Your Destiny</h2>
+               Decipher your Destiny
             </div>
+
             <div className="t3 hidden">
-                <h3>We Learn | We Develop | We Execute</h3>
+                We Learn | We Develop | We Execute    
             </div>
         </div>
+
     </div>
 }
 
