@@ -1,6 +1,9 @@
 .eventreport{
     margin: 0;
     padding-top: 3.5em;
+    background: #e5ecec;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 .eventhero{
     background: linear-gradient( rgba(210, 208, 208, 0.523),rgba(246, 214, 214, 0.589)),url('../assets/images/_DSC8155.jpg');
@@ -40,7 +43,7 @@
     text-align: center;
 }
 .date>p , .month>p , .year>p, .day>p{
-    background-color: rgb(252, 251, 251);
+    background-color: #fcfbfb;
     color: #051522;
     padding: 1rem 0.5rem;
     border-radius: 0.5em;

@@ -15,7 +15,7 @@ function Navbar() {
     <header>
       <nav ref={navRef}>
         
-        <span className="logo"><img src={logoWhite} alt="logo"/><span className="logo-name">BDCOE</span></span>
+      <span className="logo" ><img src={logoWhite} alt="logo"/><span className="logo-name">BDCOE</span></span>
         
         <span className="links">
           <a onClick={showNavbar} href="/#about">About</a>

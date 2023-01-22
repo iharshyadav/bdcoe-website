@@ -4,9 +4,6 @@ import Masonry from "react-responsive-masonry";
 import "./EventReport.css";
 import Navbar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
-import img1 from "../assets/images/codemaze.png";
-import img2 from "../assets/images/techkdown.png";
-// import Gallery from "react-photo-album";
 
 const EventReport = () => {
   const [data, setData] = useState([]);
@@ -16,7 +13,6 @@ const EventReport = () => {
       .then((res) => res.json())
       .then((res) => {
         const { message, data } = res;
-        console.log(data);
         setData(data);
       });
   }, []);
@@ -47,7 +43,7 @@ const EventReport = () => {
 
   return (
     <>
-    <Navbar />
+      <Navbar />
       <div className="eventreport">
         <div className="eventhero">
           <div className="eventtitle">
@@ -83,24 +79,15 @@ const EventReport = () => {
           {/* <Gallery images={} /> */}
         </div>
         <div className="gallery">
-        {/* {data.images.map((i) =>{
-          return(
-            <div className="photos">
-              <img src={i.images} alt="" />
-            </div>
-          )
-        })
-
-        }; */}
           <Masonry columnsCount={3} gutter="10px">
-                {data.images?.map((image, i) => (
-                    <img
-                        key={i}
-                        src={image}
-                        style={{width: "100%", display: "block", padding: "0.5em"}}
-                    />
-                ))}
-            </Masonry>
+            {data.images?.map((image, i) => (
+              <img
+                key={i}
+                src={image}
+                style={{ width: "100%", display: "block", padding: "0.5em" }}
+              />
+            ))}
+          </Masonry>
         </div>
       </div>
       <Footer />

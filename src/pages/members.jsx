@@ -13,7 +13,7 @@ const Members = () => {
             <i id='backicon'className="fa-solid fa-arrow-left-long"></i>
             </div>
             </Link>
-        <h1>Team</h1>
+        <h1>Our Team</h1>
         </header>
         <select className='dropBatch' onChange={(e)=>{setBatch(e.target.value)}} name="year">
             <option value={2025}>Second Year</option>

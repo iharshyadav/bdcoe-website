@@ -2,6 +2,10 @@
     background-color: #051522;
     font-family: 'Roboto', sans-serif;
 }
+header{
+    display: flex;
+    justify-content: center;
+}
 header > h1 {
     line-height: 6rem;
     font-size: 3.5rem;
@@ -27,7 +31,8 @@ footer > h1{
 }
 #backicon{
     color: white;
-  
+    position: fixed;
+    left: 1em;
 }
 .bicon{
     margin-left: 20px;
