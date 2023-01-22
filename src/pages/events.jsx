@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import EventAlbum  from '../components/eventComponent/eventAlbum'
 import Header from '../components/eventComponent/header'
 import Footer from "../components/footer/footer.jsx";
+import Loader from '../components/Loader';
 import Navbar from "../components/navbar/navbar";
 import './events.css'
 
@@ -26,6 +27,7 @@ const Events = () => {
                 />
             </div>
             <Footer />
+            {/* <Loader /> */}
         </section>
     );
 }

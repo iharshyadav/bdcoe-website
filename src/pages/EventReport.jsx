@@ -4,10 +4,12 @@ import Masonry from "react-responsive-masonry";
 import "./EventReport.css";
 import Navbar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
+import Loader from "../components/Loader";
 
 const EventReport = () => {
   const [data, setData] = useState([]);
   const { code } = useParams();
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
     fetch(`https://bdcoe.onrender.com/api/v1/event/${code}`)
       .then((res) => res.json())
@@ -15,6 +17,7 @@ const EventReport = () => {
         const { message, data } = res;
         setData(data);
       });
+      setLoading(true)
   }, []);
 
   const weekday = [
@@ -45,6 +48,7 @@ const EventReport = () => {
     <>
       <Navbar />
       <div className="eventreport">
+      {/* {loading ? {data} : <Loader />} */}
         <div className="eventhero">
           <div className="eventtitle">
             <p>{data.eventname}</p>
@@ -91,6 +95,7 @@ const EventReport = () => {
         </div>
       </div>
       <Footer />
+
     </>
   );
 };

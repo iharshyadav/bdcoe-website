@@ -5,7 +5,7 @@ svg #freepik_stories-server:not(.animated) .animable {
 svg #freepik_stories-server .animated #freepik--background-complete--inject-32 {
     animation: 0.7s 1 forwards cubic-bezier(.36, -0.01, .5, 1.38) slideDown, 1.5s Infinite linear floating;
     animation-delay: 0.3s, 1s;
-    opacity: 0
+    opacity: 0;
 }
 
 svg #freepik_stories-server .animated #freepik--Server--inject-32 {
