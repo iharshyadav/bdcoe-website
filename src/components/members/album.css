@@ -1,7 +1,8 @@
 .container-album{
     background-color: #051522;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     padding:20px 100px;
     text-align: center;
     align-items: center;
