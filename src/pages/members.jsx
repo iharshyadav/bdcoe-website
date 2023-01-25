@@ -4,7 +4,7 @@ import Footer from '../components/footer/footer'
 import './members.css'
 import { Link } from 'react-router-dom'
 const Members = () => {
-    const [batch,setBatch]=useState(2025);
+    const [batch,setBatch]=useState(2023);
     return <>
     <div className='members'>
         <header>
