@@ -16,11 +16,11 @@ const Members = () => {
         <h1>Team</h1>
         </header>
         <select className='dropBatch' onChange={(e)=>{setBatch(e.target.value)}} name="year">
-            <option value={2025}>2nd Year</option>
-            <option value={2024}>3rd Year</option>
             <option value={2023}>4th Year</option>
-            <option value={1}>Alumni</option>
+            <option value={2024}>3rd Year</option>
+            <option value={2025}>2nd Year</option>
             <option value={0}>Faculty</option>
+            <option value={1}>Alumni</option>
         </select>
         <Album
             batch={batch}
