@@ -12,16 +12,18 @@ const Hero = () => {
         <div className='grid-item img-grid'>
             <Graphic/>
         </div>
-        <div className='grid-item hidden'
-        // data-aos="flip-left"
-        >
+        <div className='grid-item hidden'>
            
             <div className="coehead hidden">
-                
+                <div style={{textAlign: "center"}}>
+                <p className="toptxt">BIG DATA</p>
                 <p>BIG DATA</p>
-                <p>BIG DATA</p>            
-                <p>CENTER OF EXCELLECE</p>
-                <p>CENTER OF EXCELLECE</p>
+                </div>
+                <div>
+                <p className="toptxt">CENTER OF EXCELLECE</p>
+                <p>CENTER OF EXCELLECE</p>   
+                </div>
+                
             </div>
 
 
