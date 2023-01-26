@@ -3,6 +3,7 @@ import Album from '../components/members/album'
 import Footer from '../components/footer/footer'
 import './members.css'
 import { Link } from 'react-router-dom'
+import FacultyCards from '../components/members/FacultyCards'
 const Members = () => {
     const [batch,setBatch]=useState(2023);
     return <>
@@ -22,9 +23,10 @@ const Members = () => {
             <option value={2080}>Faculty</option>
             <option value={1}>Alumni</option>
         </select>
-        <Album
+        {batch == 2080 ? <FacultyCards /> : <Album batch={batch}/>}
+        {/* <Album
             batch={batch}
-        />
+        /> */}
         <footer>
             <h1>Creativity Inspires Our Implementation</h1>
             <p>We at BDCOE are a passionate group of people who work towards bringing a change in the ecosystem of development around the campus. We want to create a healthy environment for the budding developers to exploring solutions to real life problems and promote the developer culture.</p>        

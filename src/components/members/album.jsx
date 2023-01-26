@@ -2,6 +2,7 @@ import React,{useState} from 'react'
 import Card from './card'
 import axios from 'axios'
 import './album.css'
+import FacultyCards from './FacultyCards'
 const baseURL ="https://bdcoe.onrender.com/api/v1/member"
 const Album = ({batch}) => {
     
@@ -17,6 +18,7 @@ const Album = ({batch}) => {
     return <>
     
     <div className='container-album'>
+        
         {value.data
         .filter(prop=>
             String(prop.graduation<2023 ? String(1) : String(prop.graduation)) === String(batch))
@@ -30,6 +32,7 @@ const Album = ({batch}) => {
             GH={i.github}
             IG={i.instagram}
         />)}
+        
     </div>
     </>
 }

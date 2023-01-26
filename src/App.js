@@ -6,6 +6,7 @@ import EventReport from './pages/EventReport';
 import Members from './pages/members'
 import './App.css';
 import {BrowserRouter as Router, Routes ,Route} from 'react-router-dom'
+import FacultyCards from './components/members/FacultyCards';
 
 const App = () => {
 	return (
