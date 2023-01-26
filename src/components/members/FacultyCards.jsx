@@ -7,7 +7,7 @@ import cardBackground from '../../assets/images/cardBack.svg'
 function FacultyCards() {
   return (
   <div className='container-album'>
-    <div className='child-album'  style={{height: "22em"}}>
+    <div className='child-album'  style={{paddingBottom: "1em"}}>
                <img
             className='background-card'
             src={cardBackground}
@@ -21,7 +21,7 @@ function FacultyCards() {
         <h4>IT Department</h4>
 
     </div>
-    <div className='child-album' style={{height: "22em"}}>
+    <div className='child-album' style={{paddingBottom: "1em"}}>
                <img
             className='background-card'
             src={cardBackground}
