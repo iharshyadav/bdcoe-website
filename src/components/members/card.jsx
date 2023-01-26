@@ -21,6 +21,9 @@ else if(domain==='FE'){
 else if(domain==='DE'){
     domain='UI/UX Designer'
 }
+else if(domain==='CP'){
+    domain='Competitive Programming'
+}
 return<>
     <div className='child-album'>
                <img
