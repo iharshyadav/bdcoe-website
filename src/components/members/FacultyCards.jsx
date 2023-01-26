@@ -31,7 +31,7 @@ function FacultyCards() {
             src="https://www.akgec.ac.in/wp-content/uploads/2022/12/Mukesh.jpg"
             alt='bdcoe'
         />
-        <h3 style={{paddingBottom:"1em"}}>Mr. Mukesh Kumar Singh</h3>
+        <h3 style={{paddingBottom:"1em"}}>Mr. Mukesh K Singh</h3>
         <h4>IT Department</h4>
 
     </div>
