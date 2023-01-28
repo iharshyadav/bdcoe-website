@@ -1,0 +1,71 @@
+.members{
+    background-color: #051522;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 3em;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+header > h1 {
+    line-height: 6rem;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #D6E4E5;   
+}
+
+.dropBatch{
+    background-color: #051522;
+    color: #D6E4E5;
+    padding: 10px;
+    margin-left: 8vw;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+footer > h1{
+    line-height: 5rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#backicon{
+    color: white;
+    position: fixed;
+    left: 1em;
+}
+.bicon{
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+footer{ 
+    min-height: 30vh;
+    color: #D6E4E5;
+    margin: 0 110px;
+    text-align: center;
+}
+
+@media screen and (max-width:600px){
+    .members>footer>p{
+        text-align: justify;
+        padding: 35px;
+    }
+    .members>footer>h1{
+        line-height: 2rem;
+    }
+    .members>header>h1{
+        /* line-height: 6rem; */
+        margin-bottom: 2rem;
+    }
+    .dropBatch{
+        font-size: 0.9rem;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    footer{
+        display: none;
+        /* margin: 0 1vw; */
+    }
+}

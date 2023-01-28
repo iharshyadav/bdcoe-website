@@ -1,0 +1,86 @@
+.domain {
+  line-height: 8rem;
+  text-align: center;
+  background: #EFF5F5;
+  font-size: 1.6rem;
+  padding: 1rem 0 2rem 0;
+}
+
+.dmnhead {
+  font-size: 3.1rem;
+  letter-spacing: -0.2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.flip-card-container {
+  perspective: 1000px;
+}
+
+.flip-card {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-container:hover .flip-card {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  -webkit-backface-visibility: hidden;
+  /* Safari */
+
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: absolute;
+  background-color: #fff;
+}
+
+.flip-card-back {
+
+  display: flex;
+  align-items: center;
+  background-color: #051522;
+  color: #fff;
+  transform: rotateY(180deg);
+}
+
+.dmnnm {
+  font-size: 1.7rem;
+}
+
+.flip-card-back p {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+  .dmnhead {
+    font-size: 3rem;
+  }
+
+  .flip-card-container {
+
+    perspective: 1000px;
+  }
+
+  .flip-card-back {
+    height: 45vh;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 960px) {
+  .flip-card-back p {
+    font-size: 10px;
+  }
+}

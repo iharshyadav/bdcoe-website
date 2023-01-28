@@ -4,7 +4,7 @@ import './Countdown.css'
 
 const Countdown = () => {
 
-    const launchDate = new Date('2023-01-04T18:30:00.000Z').getTime();
+    const launchDate = new Date('2023-01-06T18:30:00.000Z').getTime();
 
     const [currentTime, setCurrentTime] = useState(new Date().getTime());
 
