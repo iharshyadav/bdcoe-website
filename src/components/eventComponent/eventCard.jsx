@@ -1,7 +1,6 @@
-import React,{useState} from "react";
 import { Link } from "react-router-dom";
 
-const EventCard = ({code,img }) => {
+const EventCard = ({ code, img }) => {
 
   const to = {
     pathname: `/event/${code}`,
@@ -10,10 +9,10 @@ const EventCard = ({code,img }) => {
 
   return (
     <>
-    <Link to={to} >
-      <div className="card">
+      <Link to={to} >
+        <div className="card">
           <img src={img} alt="img" />
-      </div>
+        </div>
       </Link>
     </>
   );
