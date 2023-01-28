@@ -27,6 +27,7 @@ header button{
 }
 nav{
     position: absolute;
+    z-index: 1000;
     display: flex;
     width: 100%;
     background-color: #051522;
@@ -77,6 +78,7 @@ nav{
 .resnav{
     position: absolute;
     width: 100%;
+    z-index: 100;
     /* background-color: #D6E4E5 */
 }
 ul>a{
