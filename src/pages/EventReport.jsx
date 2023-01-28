@@ -12,11 +12,9 @@ const EventReport = () => {
     fetch(`https://bdcoe.onrender.com/api/v1/event/${code}`)
       .then((res) => res.json())
       .then((res) => {
-        const { message, data } = res;
-        console.log(data);
-        setData(data);
+        setData(res.data);
       });
-  }, []);
+  }, [code]);
 
   const weekday = [
     "Sunday",
@@ -84,6 +82,7 @@ const EventReport = () => {
                 key={i}
                 src={image}
                 style={{ width: "100%", display: "block", padding: "0.5em" }}
+                alt={data.eventname}
               />
             ))}
           </Masonry>
