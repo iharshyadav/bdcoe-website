@@ -15,7 +15,6 @@ const ContactUs = () => {
   });
 
   const SITE_KEY = "6Ld0ftEjAAAAAOodkf282VwH7MMXFat3qRstfXQx"
-  const TEST_KEY = "6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"
 
   const handleEvent = (e) => {
     const { name, value } = e.target
@@ -23,7 +22,6 @@ const ContactUs = () => {
       ...user,
       [name]: value
     })
-    //console.log(user)
   }
 
   const handleSubmit = (e) => {
