@@ -4,16 +4,18 @@ import Footer from '../components/footer/footer'
 import './members.css'
 import { Link } from 'react-router-dom'
 import FacultyCards from '../components/members/FacultyCards'
+import Navbar from '../components/navbar/navbar'
 const Members = () => {
     const [batch,setBatch]=useState(2023);
     return <>
+    <Navbar />
     <div className='members'>
         <header>
-            <Link to='/'>
+            {/* <Link to='/'>
         <div className='bicon'>
             <i id='backicon'className="fa-solid fa-arrow-left-long"></i>
             </div>
-            </Link>
+            </Link> */}
         <h1>Our Team</h1>
         </header>
         <select className='dropBatch' onChange={(e)=>{setBatch(e.target.value)}} name="year">

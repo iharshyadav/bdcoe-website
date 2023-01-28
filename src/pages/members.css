@@ -1,6 +1,7 @@
 .members{
     background-color: #051522;
     font-family: 'Roboto', sans-serif;
+    padding-top: 3em;
 }
 header{
     display: flex;
