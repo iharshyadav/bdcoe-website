@@ -99,16 +99,15 @@ nav {
     }
 
     .nav-open-btn {
-        margin: 20px;
+        margin: 15px 20px 10px;
         font-size: 30px;
-        color: #051522;
+        color: #fff;
     }
 
     .resnav {
-        position: absolute;
         width: 100%;
         z-index: 100;
-        /* background-color: #D6E4E5 */
+        background-color: #051522
     }
 
     ul>a {
