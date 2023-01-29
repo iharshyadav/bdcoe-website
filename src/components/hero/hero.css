@@ -20,8 +20,8 @@
   width: 100%;
   background: url('../../assets/circuit.png');
   background-size: contain;
-  filter: contrast(1.15);
   z-index: -100;
+  opacity: 0.6;
 }
 
 .t3>h3 {
@@ -90,6 +90,7 @@
 }
 
 .coehead>div p:nth-child(1) {
+  /* font-size: 4em; */
   width: 50%;
   position: absolute;
   color: transparent;
