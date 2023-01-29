@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import footerLogo from '../../assets/footer-logo.svg'
 import './footer.css'
 
@@ -17,10 +18,10 @@ const Footer = () => {
                         </div>
                         <div className="menu">
                             <ul>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/#domains">Domains</a></li>
-                                <li><a href="/team">Team</a></li>
-                                <li><a href="/event">Events</a></li>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/?v=domains">Domains</Link></li>
+                                <li><Link to="/team">Team</Link></li>
+                                <li><Link to="/event">Events</Link></li>
                             </ul>
                         </div>
                     </div>
