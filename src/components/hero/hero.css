@@ -36,7 +36,9 @@
 .img-grid {
   padding: 10%;
 }
-
+.bigdata{
+  font-size: 1.5rem;
+}
 /* .box1 {
     position: absolute;
     overflow: hidden;
@@ -82,7 +84,6 @@
 
 .coehead p {
   width: 100%;
-  margin-top: 2rem;
   color: #fff;
   font-size: 3em;
   font-weight: bold;
@@ -90,7 +91,6 @@
 }
 
 .coehead>div p:nth-child(1) {
-  /* font-size: 4em; */
   width: 50%;
   position: absolute;
   color: transparent;
@@ -180,8 +180,8 @@
   }
 
   .coehead p {
+
     font-size: 2em;
-    line-height: 1em;
   }
 
   .coehead>div p:nth-child(1) {

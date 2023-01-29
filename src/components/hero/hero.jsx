@@ -15,7 +15,7 @@ const Hero = () => {
         <div className='grid-item hidden'>
            
             <div className="coehead hidden">
-                <div style={{textAlign: "center"}}>
+                <div className="bigdata" style={{textAlign: "center"}}>
                 <p className="toptxt">BIG DATA</p>
                 <p>BIG DATA</p>
                 </div>

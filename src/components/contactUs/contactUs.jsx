@@ -82,6 +82,7 @@ const ContactUs = () => {
                   </div>
                 </span>
                 <ReCAPTCHA
+                  name="googleCaptcha"
                   sitekey={SITE_KEY}
                   onChange={(value) => {
                     setVerified(!verified);
