@@ -6,7 +6,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-
 }
 .child-album>h3{
     font-family: 'Montserrat', sans-serif;
@@ -37,7 +36,6 @@
 }
 
 .icons-member{
-    z-index: 110000000;
     margin: 0;
     padding: 1.5vw 0.8vw;
     display: flex;
@@ -46,7 +44,6 @@
     font-size: 1rem;
 }
 .bottom-icon{
-    z-index: 11000000;
     height: 17vw;
     text-align: center;
     justify-content: center;
@@ -71,7 +68,6 @@
         width: inherit;
     }
     .icons-member{
-        z-index: 11111111111111;
         font-size: 1rem;
         padding: 0px 15px;
         margin: 0;
