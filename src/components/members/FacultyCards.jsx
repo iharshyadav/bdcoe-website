@@ -14,11 +14,11 @@ function FacultyCards() {
           alt="back"
         />
         <img className='overlay'
-          src="https://www.akgec.ac.in/wp-content/uploads/2019/11/Ruchi-Gupta-1.jpg"
+          src="https://www.akgec.ac.in/wp-content/uploads/2023/04/RUCHI-GUPTA.jpg"
           alt='bdcoe'
         />
         <h3 style={{ paddingBottom: "1em" }}>Dr. Ruchi Gupta</h3>
-        <h4>IT Department</h4>
+        <h4>Associate Professor</h4>
 
       </div>
       <div className='child-album' style={{ paddingBottom: "1em" }}>
@@ -28,12 +28,11 @@ function FacultyCards() {
           alt="back"
         />
         <img className='overlay'
-          src="https://www.akgec.ac.in/wp-content/uploads/2022/12/Mukesh.jpg"
+          src="https://www.akgec.ac.in/wp-content/uploads/2023/04/achintya.jpg"
           alt='bdcoe'
         />
-        <h3 style={{ paddingBottom: "1em" }}>Mr. Mukesh K Singh</h3>
-        <h4>IT Department</h4>
-
+        <h3 style={{ paddingBottom: "1em" }}>Mr. Achintya Pandey</h3>
+        <h4>Assistant Professor</h4>
       </div>
     </div>
   )
