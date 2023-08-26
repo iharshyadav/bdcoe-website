@@ -21,7 +21,7 @@ const Hero = () => {
                 </div>
                 <div>
                 <p className="toptxt">CENTRE OF EXCELLENCE</p>
-                <p>CENTRE OF EXCELLNECE</p>   
+                <p>CENTRE OF EXCELLENCE</p>   
                 </div>
                 
             </div>
