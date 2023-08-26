@@ -29,14 +29,14 @@ const ContactUs = () => {
     captchaRef.current.reset();
     axios.post('https://bdcoe.onrender.com/api/v1/contact', {
       ...user,
-      recaptchaValue
-    }).then((res) => { alert(res.data.message) })
-      .catch(error => { alert(error.response.message) });
-    setUser({
-      name: "",
-      email: "",
-      message: "",
-    })
+      'g-recaptcha-response': recaptchaValue
+    }).then((res) => {
+      alert("message successfully sent")
+      window.location.reload()
+    }).catch(error => {
+      alert(`Error: ${error.message}`)
+    });
+    captchaRef.current.reset();
   }
   return (
     <div id="contact">
