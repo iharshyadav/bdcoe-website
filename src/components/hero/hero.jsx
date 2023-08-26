@@ -20,8 +20,8 @@ const Hero = () => {
                 <p>BIG DATA</p>
                 </div>
                 <div>
-                <p className="toptxt">CENTER OF EXCELLECE</p>
-                <p>CENTER OF EXCELLECE</p>   
+                <p className="toptxt">CENTRE OF EXCELLENCE</p>
+                <p>CENTRE OF EXCELLNECE</p>   
                 </div>
                 
             </div>
