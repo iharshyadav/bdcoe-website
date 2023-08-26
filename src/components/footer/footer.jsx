@@ -18,8 +18,8 @@ const Footer = () => {
                         </div>
                         <div className="menu">
                             <ul>
-                                <li><Link to="/">Home</Link></li>
-                                <li><Link to="/?v=domains">Domains</Link></li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/#domains">Domains</a></li>
                                 <li><Link to="/team">Team</Link></li>
                                 <li><Link to="/event">Events</Link></li>
                             </ul>
