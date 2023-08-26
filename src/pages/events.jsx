@@ -2,30 +2,52 @@ import React, { useEffect, useState } from 'react'
 import EventAlbum from '../components/eventComponent/eventAlbum'
 import Footer from "../components/footer/footer.jsx";
 import Navbar from "../components/navbar/navbar";
+import axios from "axios"
 import './events.css'
 
 const Events = () => {
+    const URL = "https://bdcoe.onrender.com/api/v1/event"
+    const [isLoading, setisLoading] = useState(true);
     const [data, setData] = useState([])
     useEffect(() => {
-        fetch('https://bdcoe.onrender.com/api/v1/event')
-            .then(res => res.json())
-            .then((res) => {
-                setData(res.data);
-            })
+        (async () => {
+            try {
+                const response = await axios.get(URL)
+                setData(response.data.data)
+            } catch (err) {
+                console.log(`Error: ${err.message}`)
+            } finally {
+                setisLoading(false)
+            }
+        })()
     }, [])
-    return (
+    return <>
+        <Navbar />
         <section id="events">
-            <Navbar />
             <div className="event">
                 <h1>Events</h1>
                 <hr />
-                <EventAlbum
-                    data={data}
-                />
+                {
+                    isLoading ?
+                        <div className='wrapper1'>
+                            <div className='wrapper'>
+                                {[...Array(6)].map((x, i) =>
+                                    <div className="card event_loader_card" key={i}>
+                                        <div className='event_loader_image'></div>
+                                    </div>
+                                )}
+                            </div>
+                        </div>
+                        :
+                        <EventAlbum
+                            data={data}
+                        />
+                }
             </div>
-            <Footer />
         </section>
-    );
+        <Footer />
+    </>
+
 }
 
 export default Events
