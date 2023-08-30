@@ -17,7 +17,7 @@ const Events = () => {
             } catch (err) {
                 console.log(`Error: ${err.message}`)
             } finally {
-                setisLoading(false)
+                setisLoading(true)
             }
         })()
     }, [])

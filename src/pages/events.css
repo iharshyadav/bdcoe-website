@@ -1,5 +1,4 @@
 .event{
-    background: #e5ecec;
     height: auto;
     text-align: center;
     font-size: 1.8rem;
@@ -16,6 +15,13 @@
     height: 5px;
     margin-left: 20px;
     background-color: black;
+}
+.event_loader_card{
+    background: linear-gradient(110deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
+    border-radius: 10px;
+    font-size: 1.3rem;
+    background-size: 200% 100%;
+    animation: 1s shine linear infinite;
 }
 .event>.wrapper1{
     width: 100%;
