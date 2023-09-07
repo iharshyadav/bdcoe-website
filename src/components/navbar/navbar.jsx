@@ -11,9 +11,9 @@ function Navbar() {
     return navRef.current.classList.toggle("responsive_nav");
   }
 
-  function handleRegister() {
-    alert('More events coming soon!');
-  }
+  // function handleRegister() {
+  //   alert('More events coming soon!');
+  // }
 
   return (
     <header>
@@ -30,8 +30,8 @@ function Navbar() {
         </span>
 
 
-        <button className="regbtn" onClick={handleRegister}>Register</button>
-
+        <a href="https://register.bdcoe.co.in/"><button className="regbtn" >Register</button>
+</a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
 
