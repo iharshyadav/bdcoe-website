@@ -30,8 +30,7 @@ function Navbar() {
         </span>
 
 
-        <a href="https://register.bdcoe.co.in/"><button className="regbtn" >Register</button>
-</a>
+        <Link to='/register'><button className="regbtn" >Register</button></Link>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
 
