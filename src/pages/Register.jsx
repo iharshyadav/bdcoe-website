@@ -22,6 +22,15 @@ const Register = () => {
             />
             <label className="usernamesize">Name</label>
           </div>
+          <div className="user-box">
+            <input
+              type="number"
+              name=""
+              required=""
+              placeholder="Student No."
+            />
+            <label className="usernamesize">Student No.</label>
+          </div>
 
           <div className="user-box">
             <input
@@ -32,29 +41,70 @@ const Register = () => {
             />
             <label className="usernamesize">College Email</label>
           </div>
-
-          <div className="user-box">
-            <input
-              type="text"
-              name=""
-              required=""
-              placeholder="Branch"
-            />
-            <label className="usernamesize">Branch</label>
-          </div>
-
+          <div className='side1 '>
           <div className="user-box2">
           <select
               className="custom-dropdown"
               value={selectOption}
               onChange={(e) => handleOptionChange(e.target.value)}
             >
-              <option value="option1">Option 1</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
+              <option value="option1">CSE</option>
+              <option value="option2">CS</option>
+              <option value="option3">CSE-AIML</option>
+              <option value="option4">CSE-DS</option>
+              <option value="option5">IT</option>
+              <option value="option6">CSIT</option>
+              <option value="option7">AIML</option>
+              <option value="option8">CSE-HINDI</option>
+              <option value="option9">ECE</option>
+              <option value="option10">EN</option>
+              <option value="option11">ME</option>
+              <option value="option11">CE</option>
               
             </select>
+            <label className="usernamesize">Branch</label>
+          </div>
+          <div className="user-box2">
+          <select
+              className="custom-dropdown"
+              // value={selectOption}
+              // onChange={(e) => handleOptionChange(e.target.value)}
+            >
+              <option value="option1">MALE</option>
+              <option value="option2">FEMALE</option>
+              <option value="option3">Others</option>
+              
+            </select>
+            <label className="usernamesize">Gender</label>
+          </div>
+        </div>
+  
+
+         <div className='side2'>
+
+          <div className="user-box">
+          <input
+              type="number"
+              name=""
+              required=""
+              placeholder="Section Number"
+              />
             <label className="usernamesize">Section</label>
+          </div>
+          
+          <div className="user-box2">
+            <select
+              className="custom-dropdown"
+              value={selectOption}
+              onChange={(e) => handleOptionChange(e.target.value)}
+            >
+              <option value="hostel">Hostel</option>
+              <option value="dayscholar">Dayscholar</option>
+              <option value="dayscholar">Dayscholar-pg/flat</option>
+            </select>
+            <label className="usernamesize">Residency</label>
+          </div>
+
           </div>
 
           <div className="user-box">
@@ -67,27 +117,7 @@ const Register = () => {
             <label className="usernamesize">Mobile No.</label>
           </div>
 
-          <div className="user-box">
-            <input
-              type="number"
-              name=""
-              required=""
-              placeholder="Student No."
-            />
-            <label className="usernamesize">Student No.</label>
-          </div>
 
-          <div className="user-box2">
-            <select
-              className="custom-dropdown"
-              value={selectOption}
-              onChange={(e) => handleOptionChange(e.target.value)}
-            >
-              <option value="hostel">Hostel</option>
-              <option value="dayscholar">Dayscholar</option>
-            </select>
-            <label className="usernamesize">Residency</label>
-          </div>
 
           <button className="submitbtn">Submit</button>
         </form>

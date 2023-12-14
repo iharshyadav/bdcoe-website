@@ -13,7 +13,7 @@ html {
   
   .login-box {
     position: absolute;
-    top: 80%;
+    top: 65%;
     left: 50%;
     min-height: 100vh;
     width: 400px;
@@ -274,5 +274,22 @@ input::-webkit-inner-spin-button {
       bottom: 100%;
     }
   }
+
+
+
+.side1{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.side2{
+  display: flex;
+
+  gap: 2rem;
+}
+.usernamesize2{
+  width: 24px;
+}
 
   
